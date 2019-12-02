@@ -1,0 +1,86 @@
+.RecommendationsCarousel {
+    height: 58%;
+    width: 310px;
+    align-self: center;
+    display: inline-block;
+    /* padding-right: 0px;
+    padding-left: 0px; */
+}
+
+.Recommendation {
+    /* flex: content; */
+    display: inline-block;
+    width: 100%;
+}
+
+.Hover {
+    background-color: #00ffff99;
+}
+
+.Selected {
+    background-color: #33bdef;
+}
+
+.OutfitPartFabricDisplay {
+    min-width: 100px;
+    margin: 2px;
+    padding: 5px;
+    width: 100%;
+    display: inline-block;
+    background-size: contain;
+}
+
+.TextBackdrop {
+    background-color: #BBB9;
+    width: 100%;
+    display: inline-block;
+}
+
+h3 {
+    text-align: center;
+    width: 100%;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    color: #000;
+    display: inline-block;
+}
+
+p {
+    text-align: center;
+    width: 100%;
+    vertical-align: baseline;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    color: #000;
+    line-height: 150%;
+    height: 4em;
+    display: inline-block;
+}
+
+.HorizontalScrollContainer {
+    display: flex;
+    overflow-y: auto;
+    overflow-x: visible;
+    flex-direction: column;
+    /* display: inline-block; */
+}
+
+.Col {
+    display: inline-block;
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.Row {
+    display: inline-block;
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    overflow: hidden;
+}

@@ -1,0 +1,54 @@
+{
+    "name": "3js-clothing-preview",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@types/jest": "24.0.20",
+        "@types/jimp": "^0.2.28",
+        "@types/node": "12.11.7",
+        "@types/react": "16.9.11",
+        "@types/react-dom": "16.9.3",
+        "@types/react-scroll": "^1.5.4",
+        "@types/react-tag-autocomplete": "^5.6.1",
+        "@types/sharp": "^0.23.0",
+        "@types/three": "^0.103.2",
+        "jimp": "^0.8.5",
+        "layout": "^2.2.0",
+        "lipo": "0.0.10",
+        "react": "^16.11.0",
+        "react-dom": "^16.11.0",
+        "react-grid-system": "^6.0.3",
+        "react-horizontal-scroll-container": "^1.0.1",
+        "react-horizontal-scrolling-menu": "^0.7.3",
+        "react-scripts": "3.2.0",
+        "react-scroll": "^1.7.14",
+        "react-tag-autocomplete": "^5.11.2",
+        "react-tag-input-custom-search": "^5.9.26",
+        "serialize-ts": "^2.6.0",
+        "three": "^0.109.0",
+        "three.js": "^0.77.1",
+        "typescript": "3.6.4",
+        "webpack": "4.41.0"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
