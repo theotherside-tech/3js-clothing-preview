@@ -1,4 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a Model Preview with React.js and Three.js.
+Typescript
 
 ## Available Scripts
 
