@@ -1,4 +1,4 @@
-This project is a Model Preview with React.js and Three.js.
+This project is a 3D Model Preview with React.js and Three.js.
 Typescript
 
 ## Available Scripts
