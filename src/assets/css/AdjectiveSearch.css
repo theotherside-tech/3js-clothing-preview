@@ -1,8 +1,6 @@
 .react-tags {
     position: relative;
-    padding: 0px 3px 0px 3px;
-    border: 1px solid #D1D1D1;
-    border-radius: 1px;
+    padding: 0.375rem 0.75rem;
     /* shared font styles */
     font-size: 1em;
     line-height: 1em;
@@ -10,6 +8,10 @@
     cursor: text;
     display: inline-block;
     margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    width: 100%;
 }
 
 .react-tags.is-focused {
@@ -47,10 +49,10 @@
 .react-tags__search {
     display: inline-block;
     /* match tag layout */
-    padding: 7px 2px;
+    padding: 2px 2px;
     margin-bottom: 0px;
     /* prevent autoresize overflowing the container */
-    max-width: 100%;
+    width: 100%;
 }
 
 @media screen and (min-width: 30em) {
@@ -62,7 +64,7 @@
 
 .react-tags__search input {
     /* prevent autoresize overflowing the container */
-    max-width: 100%;
+    width: 100%;
     /* remove styles and layout from this element */
     margin: 0;
     padding: 0;
@@ -129,4 +131,31 @@
 
 .Col {
     display: inline-block;
+}
+
+select {
+    font-size: inherit;
+}
+
+.swatchBox {
+    border: 2px solid gray;
+    height: 150px;
+    padding: 5px;
+    overflow: auto;
+}
+
+.swatch {
+    height: 84px;
+    width: 84px;
+}
+
+.swatchFrame {
+    width: 78px;
+    margin-left: 10px;
+}
+
+.swatchText {
+    font-size: 9px;
+    text-align: center;
+    margin-left: -5px;
 }

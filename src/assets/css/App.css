@@ -1,0 +1,165 @@
+.App {
+    text-align: center;
+    align-content: center;
+    vertical-align: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.Menu {
+    height: 100%;
+    z-index: 2;
+    position: absolute;
+    background: #ffffff;
+    display: inline-flexbox;
+    overflow-x: visible;
+    overflow-y: clip;
+}
+
+.App-logo {
+    height: 40vmin;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #09d3ac;
+}
+
+.Col {
+    display: block;
+    overflow: hidden;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+.buttonDiv {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.addbtn {
+    margin-left: 20px;
+    height: 35px;
+    float: right;
+    width: 45%;
+}
+
+.viewbtn {
+    height: 35px;
+    width: 45%;
+}
+.camerabtn {
+    height: 35px;
+    display: flex;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.recommendationbtn {
+    height: 35px;
+    width: 100%;
+}
+
+.checkbox {
+    width: 15px;
+    height: 15px;
+}
+
+.filter {
+    height:100%;
+    display: flex;
+    flex-direction :column;
+}
+
+.filterRow {
+    overflow: auto;
+    padding:10px;
+    margin-bottom: 5px;
+}
+
+.checkBoxsRow {
+    padding:10px;
+}
+.fullHeight{
+    height:100%;
+}
+
+.watermarkimg {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.rulesList {
+    overflow: auto;
+    max-height: 300px;
+}
+
+.editFabric {
+    border: 1px lightgrey solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.editFabric .form-control:disabled{
+    background-color: unset!important; 
+}
+
+.errorValue {
+    border-color: red;
+    box-shadow: 0 0 0 0.2rem red;
+}
+.refresh-btn {
+    height: 40px;
+    margin-top: -10px;
+}
+div#wave {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+}
+div#wave .dot {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    margin-right: 3px;
+    background: #303131;
+    animation: wave 1.3s linear infinite;
+}
+div#wave .dot:nth-child(2) {
+    animation-delay: -1.1s;
+}
+@keyframes wave {
+	0%, 60%, 100% {
+		transform: initial;
+	}
+
+	30% {
+		transform: translateY(-6px);
+	}
+}
+
+div#wave .dot:nth-child(3) {
+    animation-delay: -0.9s;
+}
