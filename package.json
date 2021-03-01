@@ -31,7 +31,7 @@
         "react-tag-input-custom-search": "^5.9.26",
         "reactstrap": "^8.1.1",
         "serialize-ts": "^2.6.0",
-        "three": "^0.109.0",
+        "three": "^0.125.0",
         "three.js": "^0.77.1",
         "typescript": "3.6.4",
         "webpack": "4.41.0"
